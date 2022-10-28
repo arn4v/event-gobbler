@@ -1,0 +1,23 @@
+{
+  "name": "@initflow/event-gobbler",
+  "version": "0.1.0-alpha.1",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@arn4v/is-iso-date": "^0.2.0",
+    "clickhouse": "^2.6.0",
+    "fastify": "^4.9.2",
+    "fastify-plugin": "^4.3.0",
+    "pg": "^8.8.0",
+    "sql-tag": "^1.0.1",
+    "zod": "^3.19.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.7",
+    "@types/pg": "^8.6.5",
+    "pino-pretty": "^9.1.1",
+    "tsup": "^6.3.0",
+    "typescript": "^4.8.4",
+    "vitest": "^0.24.3"
+  }
+}
