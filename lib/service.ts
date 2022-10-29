@@ -22,7 +22,7 @@ function handleIdentifyRequest(rq: FastifyRequest, rp: FastifyReply) {
 interface EventGobblerPluginOptions {
   prefix?: string;
   identify(payload: IdentifyPayloadSchema): Promise<void>;
-  track(payload: EventPayloadSchema): Promise<void>;
+  track(payload: EventPayloadSchema[]): Promise<void>;
 }
 
 export const pluginAsync: FastifyPluginAsync<
