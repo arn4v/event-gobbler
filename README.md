@@ -5,7 +5,7 @@ This package contains the event ingestion routes and the core Clickhouse logic. 
 ## Event Schema
 
 ```ts
-type ISO8601String = stringb;
+type ISO8601String = string;
 
 export interface EventPayloadSchema {
   $type: "$identify";
@@ -21,7 +21,7 @@ export interface EventPayloadSchema {
 ## Identify Schema
 
 ```ts
-type ISO8601String = stringb;
+type ISO8601String = string;
 
 type UserTraits = {
   email: string;
